@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS conpanydb;
+USE conpanydb;
+CREATE TABLE employee (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    NAME VARCHAR(45) DEFAULT NULL,
+    salary INT(5) DEFAULT NULL,
+    PRIMARY KEY (id)
+);
